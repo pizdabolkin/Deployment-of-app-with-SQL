@@ -1,5 +1,4 @@
-#Requires -Version 3.0
-
+#Requires -Version 3.1
 Param(
     [string] [Parameter(Mandatory=$true)] $ResourceGroupLocation,
     [string] $ResourceGroupName = 'ArmTemplates',
